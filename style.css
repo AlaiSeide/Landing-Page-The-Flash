@@ -1,0 +1,84 @@
+@import url('https://fonts.googleapis.com/css2?family=Righteous&family=Sarala:wght@400;700&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+
+}
+
+body {
+    background: rgb(34,193,195);
+    background: linear-gradient(270deg, rgba(34,193,195,1) 0%, rgba(253,187,45,1) 100%);
+    
+}
+
+.cabecalho {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-top: 20px;
+    /* border: 3px solid white; */
+}
+
+.cabecalho-titulo {
+    color: white;
+    font-family: 'Righteous', cursive;
+}
+
+.cabecalho-navegacao {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    gap: 20px;
+}
+
+.cabecalho-navegacao a {
+    color: white;
+}
+
+.conteudo-principal {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-around;
+    gap: 32px;
+    border-top: 3px solid white;
+    padding: 20px;
+    /* margin: 30px auto;
+    width: auto; */
+    width: 80%; /* Define a largura do conteúdo principal em 90% da largura da tela */
+    max-width: 1000px; /* Define uma largura máxima para o conteúdo principal */
+    margin: 30px auto; /* Centraliza o conteúdo na tela */
+
+}
+
+.primeira-secao-titulo, .segunda-secao-titulo {
+    color: white;
+    text-align: center;
+    margin-bottom: 20px;
+    font-family: 'Sarala', sans-serif;
+    font-size: 25px;
+}
+
+.primeira-secao {
+    color: #333333;
+    text-align: justify;
+}
+
+
+
+
+
+.rodape {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    color: white;
+    text-align: center;
+    padding: 10px;
+    border-top: 3px solid white;
+     
+}

@@ -1,0 +1,6 @@
+@media screen and (max-width: 750px) {
+    .conteudo-principal {
+        font-size: 16px; /* Reduz a fonte em telas menores */
+        margin: 30 auto;
+    }
+}
